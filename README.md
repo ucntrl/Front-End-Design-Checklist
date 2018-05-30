@@ -5,20 +5,66 @@
 </p>
 
 ## Table of Contents
-
-* [1. Grid system]
-* [2. Colors]
-* [3. Fonts]
-* [4. Images / Icons]
-* [5. Forms and buttons]
-* [6. Responsive Web Design]
-* [7. Style Guide and component approach]
-
-Designing a website or a webapp requires following some rules and taking into consideration that the project is not only a graphic project but a web project too. The next sections are crucial for any web project.
+* **[1. Pre-design phase (Measure Twice, Cut Once)](#1---design-requirements)**
+  * [1.1 Mobile-first](#1---grid-system-)
+  * [1.2 Prototype with Adobe XD](#1---grid-system-)
+* **[2. Design requirements](#1---design-requirements)**
+  * [2.1 Grid system](#1---grid-system-)
+  * [2.2 Colors](#1---grid-system-)
+  * [2.3 Fonts](#1---grid-system-)
+  * [2.4 Images / Icons](#1---grid-system-)
+  * [2.5 Forms and buttons](#1---grid-system-)
+  * [2.6 Responsive Web Design](#1---grid-system-)
+  * [2.7 Style Guide and component approach](#1---grid-system-)
 
 ---
 
-## 1. - Grid system 📐
+## 1. - Pre-design phase (Measure Twice, Cut Once)
+
+> The overarching goal of preparation is risk reduction: a good project planner clears major risks out of the way as early as possible so that the bulk of the project can proceed as smoothly as possible. By far the most common project risks in software development are poor requirements and poor project planning, thus preparation tends to focus on improving requirements and project plans.
+
+> Building a software system is like any other project that takes people and money. If you’re building a house, you make architectural drawings and blueprints before you begin pounding nails. You’ll have the blueprints reviewed and approved before you pour any concrete. Having a technical plan counts just as much in software.
+
+> You don’t start decorating the Christmas tree until you’ve put it in the stand. You don’t start a fire until you’ve opened the flue. You don’t go on a long trip with an empty tank of gas. You don’t get dressed before you take a shower, and you don’t put your shoes on before your socks. You have to do things in the right order in software, too.
+Programmers are at the end of the software food chain. The architect consumes the requirements; the designer consumes the architecture; and the coder consumes the design.
+
+📖 [Code Complete: A Practical Handbook of Software Construction, Second Edition 2nd Edition](https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670)
+by Steve McConnell
+
+
+### 1.1 - Mobile-first 📱
+
+> If you still have it in your head that mobile web design and application development is a niche industry, you need to change your way of thinking. Mobile isn’t a trend, nor is it even the future, it’s the present. 
+
+* [ ] Think about mobile usage of app first
+* [ ] Use Progressive Enhancement
+
+__Resources:__
+  * 📖 [Mobile First](https://zurb.com/word/mobile-first)
+  * 📖 [Mobile First Design: Why It’s Great and Why It Sucks](https://mayvendev.com/blog/mobilefirst)
+  * 📖 [Progressive enhancement explained simply](https://medium.com/@adambsilver/progressive-enhancement-explained-simply-32dd1dc9e064)
+
+**[⬆ back to top](#table-of-contents)**
+
+### 1.2 - Prototype with Adobe XD 🗜
+
+Prototyping is essential to help team create the best product possible. It’s a chance to experiment with ideas and turn them into something tangible that you can test and build upon. When you fail with your prototype, you land softly — there’s always the chance to iterate and improve.
+
+* [ ] All pages and components are prototyped in **Adobe XD** and tested.
+* [ ] Prototype should cover all UX issues.
+* [ ] Prototype should cover both mobile and desktop version of app
+
+__Resources:__
+  * 🛠 [Adobe XD](https://www.adobe.com/products/xd.html)
+  * 📖 [How We Use Prototyping, And How It Made Us More Efficient](https://www.smashingmagazine.com/2016/08/prototyping-for-success/)
+
+**[⬆ back to top](#table-of-contents)**
+
+## 1. - Design requirements
+
+Designing a website or a webapp requires following some rules and taking into consideration that the project is not only a graphic project but a web project too. The next sections are crucial for any web project.
+
+### 2.1. - Grid system 📐
 
 * [ ] A **grid** is explicitly provided in the design, and the details of the grid are present in the technical specification (width, gutters, number of columns…). The Web Designer can keep the grid in a transparent layer and use it on all his project.
 
@@ -32,7 +78,7 @@ __Additional Resources:__
 
 **[⬆ back to top](#table-of-contents)**
 
-## 2. - Colors 🎨 
+### 2.2. - Colors 🎨 
 
 * [ ] **All colors used in the creatives are named** ($gray-light, $gray-dark, $green) or accordingly with their use ($body-background, $body-copy, $text-paragraph…). They can be exported in an [ACO file][11] (on a symbol page for Sketch) and shared with the developers.
 
@@ -42,7 +88,7 @@ __Additional Resources:__
 
 **[⬆ back to top](#table-of-contents)**
 
-## 3 - Fonts 🈶
+### 2.3 - Fonts 🈶
 
 Fonts are an essential part of every design, they shouldn’t be chosen without discernment. Choosing the wrong font for a project could have financial and legal impacts.
 
@@ -59,7 +105,7 @@ __Additional Resources:__
 
 **[⬆ back to top](#table-of-contents)**
 
-## 4 - Images / Icons 🖼
+### 2.4 - Images / Icons 🖼
 
 * [ ] A **favicon image** with at least 512px X 512px is provided in PNG format. The generation of all the others Favicons can be easily done with online tools.
 
@@ -76,7 +122,7 @@ __Additional Resources:__
 __Additional Resources:__
 * 📖 [Essential Image Optimization](https://images.guide/)
 
-### 5 Forms and buttons 📬
+### 2.5 Forms and buttons 📬
 
 * [ ] All forms possess a title that can be used as a legend
 * [ ] An example of the **different states of all input fields** were provided (at least focus and inactive/disabled state).
@@ -101,7 +147,7 @@ __Additional Resources:__
 
 **[⬆ back to top](#table-of-contents)**
 
-### 6 - Responsive Web Design 📲
+### 2.6 - Responsive Web Design 📲
 
 * [ ] The **mobile version** of the design is provided before or at the same time of the desktop version.
 
@@ -116,7 +162,7 @@ __Additional Resources:__
 
 **[⬆ back to top](#table-of-contents)**
 
-### 7 - Style Guide and component approach 📋
+### 2.7 - Style Guide and component approach 📋
 
 * [ ] All components designed on each page were created with the **component based approach**  (Atomic Design). If not, issues can occur in terms of performance, maintainability of the project...
 
@@ -125,8 +171,6 @@ __Additional Resources:__
   * 📖 [6 Reasons for Component-Based UI Development](https://www.tandemseven.com/technology/6-reasons-component-based-ui-development/)
 
 * [ ] A **Style Guide** needs to be provided listing all elements, components, styles, dimensions. Some boilerplates like [UX Power Tools](https://www.uxpower.tools/) can help saving time and keep consistency in the designs.
-
-⚠️ *In the case where the Style Guide is missing, it's a good practice to build yourself a [living Style Guide](https://github.com/davidhund/styleguide-generators) to facilitate your work. Some CMS like Drupal, for example, have plugins that allow to develop a living Style Guide using [Pattern Lab](https://drupal-pattern-lab.github.io/).*
 
 __Additional Resources:__
 
