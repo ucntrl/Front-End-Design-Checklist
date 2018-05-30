@@ -5,21 +5,21 @@
 </p>
 
 ## Table of Contents
-* **[1. Pre-design phase (Measure Twice, Cut Once)](#1---design-requirements)**
-  * [1.1 Mobile-first](#1---grid-system-)
-  * [1.2 Prototype with Adobe XD](#1---grid-system-)
-* **[2. Design requirements](#1---design-requirements)**
-  * [2.1 Grid system](#1---grid-system-)
-  * [2.2 Colors](#1---grid-system-)
-  * [2.3 Fonts](#1---grid-system-)
-  * [2.4 Images / Icons](#1---grid-system-)
-  * [2.5 Forms and buttons](#1---grid-system-)
-  * [2.6 Responsive Web Design](#1---grid-system-)
-  * [2.7 Style Guide and component approach](#1---grid-system-)
+* **[1. Pre-design phase (Measure Twice, Cut Once)](#1---pre-design-phase-measure-twice-cut-once-)**
+  * [1.1 Mobile-first](#11---mobile-first-)
+  * [1.2 Prototype with Adobe XD](#12---prototype-with-adobe-xd-)
+* **[2. Design requirements](#2---design-requirements)**
+  * [2.1 Grid system](#21---grid-system-)
+  * [2.2 Colors](#22---colors-)
+  * [2.3 Fonts](#23---fonts-)
+  * [2.4 Images / Icons](#24---images--icons-)
+  * [2.5 Forms and buttons](#25-forms-and-buttons-)
+  * [2.6 Responsive Web Design](#26---responsive-web-design-)
+  * [2.7 Style Guide and component approach](#27---style-guide-and-component-approach-)
 
 ---
 
-## 1. - Pre-design phase (Measure Twice, Cut Once)
+## 1. - Pre-design phase (Measure Twice, Cut Once) ✂️
 
 > The overarching goal of preparation is risk reduction: a good project planner clears major risks out of the way as early as possible so that the bulk of the project can proceed as smoothly as possible. By far the most common project risks in software development are poor requirements and poor project planning, thus preparation tends to focus on improving requirements and project plans.
 
@@ -46,7 +46,7 @@ __Resources:__
 
 **[⬆ back to top](#table-of-contents)**
 
-### 1.2 - Prototype with Adobe XD 🗜
+### 1.2 - Prototype with Adobe XD 🚀
 
 Prototyping is essential to help team create the best product possible. It’s a chance to experiment with ideas and turn them into something tangible that you can test and build upon. When you fail with your prototype, you land softly — there’s always the chance to iterate and improve.
 
@@ -60,7 +60,7 @@ __Resources:__
 
 **[⬆ back to top](#table-of-contents)**
 
-## 1. - Design requirements
+## 2. - Design requirements
 
 Designing a website or a webapp requires following some rules and taking into consideration that the project is not only a graphic project but a web project too. The next sections are crucial for any web project.
 
